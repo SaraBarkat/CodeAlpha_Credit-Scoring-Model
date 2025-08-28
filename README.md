@@ -32,9 +32,18 @@ The dataset (`bankloans_with_scores.csv`) includes:
 ## 🎯 Objective
 
 Predict the **credit_score** using the following features:
-['income', 'debtinc', 'creddebt', 'othdebt',
-'age', 'employ', 'address', 'education', 'default']
 
+| Feature    | Description                  |
+|------------|------------------------------|
+| income     | Annual income                |
+| debtinc    | Debt-to-income ratio         |
+| creddebt   | Credit card debt             |
+| othdebt    | Other debts                  |
+| age        | Age of the customer          |
+| employ     | Years employed               |
+| address    | Years at current address     |
+| education  | Education level              |
+| default    | Default indicator (0 or 1)   |
 
 ---
 
@@ -72,5 +81,3 @@ This project is licensed under the **MIT License**.
 Feel free to use and modify it.  
 
 ---
-
-
